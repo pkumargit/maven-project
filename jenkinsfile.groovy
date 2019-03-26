@@ -1,5 +1,7 @@
 node {
   stage('Checkout SCM') {
-    checkout scm
+    if (env.CHANGE_TARGET == "master") {
+      checkout scm
+    }
   }
 }
