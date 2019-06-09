@@ -1,2 +1,2 @@
-# maven-project1
+# maven-project2
 Project source code for https://www.udemy.com/the-complete-jenkins-course-for-developers-and-devops
